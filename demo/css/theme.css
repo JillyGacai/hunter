@@ -1,0 +1,48 @@
+/* ------ theme green ------ */
+
+.theme-green a.link:hover {
+    color: #1abc9c;
+}
+
+.theme-green .navi-page .logo {
+    color: #1abc9c;
+}
+
+.theme-green .main-page .login input.control-input:hover,
+.theme-green .main-page .login input.control-input:active {
+    border-color: #1abc9c;
+}
+
+.theme-green .main-page .login input.btn {
+    border-color: #1abc9c;
+    background-color: #1abc9c;
+}
+
+.theme-green .main-page .login input.btn:hover {
+    background-color: #16a085;
+}
+
+
+/* ------ theme red ------ */
+
+.theme-red a.link:hover {
+    color: #e74c3c;
+}
+
+.theme-red .navi-page .logo {
+    color: #e74c3c;
+}
+
+.theme-red .main-page .login input.control-input:hover,
+.theme-red .main-page .login input.control-input:active {
+    border-color: #e74c3c;
+}
+
+.theme-red .main-page .login input.btn {
+    border-color: #e74c3c;
+    background-color: #e74c3c;
+}
+
+.theme-red .main-page .login input.btn:hover {
+    background-color: #C0392B;
+}

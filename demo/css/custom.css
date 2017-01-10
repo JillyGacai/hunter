@@ -1,0 +1,131 @@
+/* ------ navi ------ */
+
+.navi {
+    border-bottom: 1px solid #d8d8d8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.navi-page {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navi-page .logo {
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 50px;
+    float: left;
+    color: #3d9efc;
+}
+
+.navi-page .theme {
+    float: right;
+    margin-top: 17px;
+}
+
+.navi-page .theme span {
+    position: relative;
+    float: left;
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.navi-page .theme span i {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.navi-page .theme span.color-blue i {
+    background-color: #3d9efc;
+}
+
+.navi-page .theme span.color-blue:hover,
+.navi-page .theme span.color-blue.active {
+    border-color: #3d9efc;
+}
+
+.navi-page .theme span.color-green i {
+    background-color: #1abc9c;
+}
+
+.navi-page .theme span.color-green:hover,
+.navi-page .theme span.color-green.active {
+    border-color: #1abc9c;
+}
+
+.navi-page .theme span.color-red i {
+    background-color: #e74c3c;
+}
+
+.navi-page .theme span.color-red:hover,
+.navi-page .theme span.color-red.active {
+    border-color: #e74c3c;
+}
+
+
+/* ------ main ------ */
+
+.main-page {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main-page .login {
+    width: 220px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.main-page .login .row {
+    margin-bottom: 20px;
+}
+
+.main-page .login .title {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: #a0a0a0;
+}
+
+.main-page .login input.control-input {
+    line-height: 36px;
+    width: 220px;
+    height: 36px;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.main-page .login input.control-input:hover,
+.main-page .login input.control-input:active {
+    border-color: #3d9efc;
+}
+
+.main-page .login input.btn {
+    font-size: 16px;
+    width: 220px;
+    height: 36px;
+    color: #fff;
+    border: 1px solid #3d9efc;
+    border-radius: 2px;
+    background-color: #3d9efc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.main-page .login input.btn:hover {
+    background-color: #0982fb;
+}
