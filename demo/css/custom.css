@@ -2,11 +2,13 @@
 
 .navi {
     border-bottom: 1px solid #d8d8d8;
+    background-color: #fff;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
 }
 
 .navi-page {
     width: 1000px;
+    height: 50px;
     margin: 0 auto;
 }
 
@@ -16,6 +18,19 @@
     line-height: 50px;
     float: left;
     color: #3d9efc;
+}
+
+.navi-page .crumbs {
+    line-height: 30px;
+    float: left;
+    margin: 10px 0;
+}
+
+.navi-page .user-info {
+    line-height: 30px;
+    float: right;
+    margin: 10px 0;
+    margin-left: 20px;
 }
 
 .navi-page .theme {
@@ -28,11 +43,11 @@
     float: left;
     width: 16px;
     height: 16px;
+    margin-left: 5px;
     padding: 2px;
+    cursor: pointer;
     border: 1px solid #fff;
     border-radius: 16px;
-    margin: 0 5px;
-    cursor: pointer;
 }
 
 .navi-page .theme span i {
@@ -116,16 +131,26 @@
 }
 
 .main-page .login input.btn {
-    font-size: 16px;
     width: 220px;
     height: 36px;
-    color: #fff;
-    border: 1px solid #3d9efc;
-    border-radius: 2px;
-    background-color: #3d9efc;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    font-size: 16px;
+    line-height: normal;
 }
 
-.main-page .login input.btn:hover {
-    background-color: #0982fb;
+.main-page .panel {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.main-page .panel .panel-head .title {
+    font-size: 16px;
+    float: left;
+    line-height: 26px;
+}
+
+.main-page .panel .panel-head .btn-bar {
+    float: right;
 }
